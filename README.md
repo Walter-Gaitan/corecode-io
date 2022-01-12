@@ -18,3 +18,13 @@ They are a useful way to explain your code to other programmers and what you pre
 ### 6. Search about High-level languages and Low-level languages, you can start with this video
 * a high level language is user oriented, so it makes easier to convert and algorithm to code 
 * a low level language is machine-oriented, so you need to be more specific in therms of capabilities and specifications, they are also known as assembly language
+
+## Week challenges (Wednesday) 💻
+
+1. Learn about binary, decimal and hexadecimal numbers
+2. Translate the year you where born to binary, decimal and hexadecimal
+3. Translate 51966 into hexadecimal and binary
+4. Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow [this](resources/MIPS.md) guide. We recomend to check the guide first but also [this](https://courses.cs.vt.edu/cs2506/Fall2014/Notes/L04.MIPSAssemblyOverview.pdf) presentation could be helpful.
+5. Base on the examples and the guide of the low-level language:
+   5.1 Create a program to add two numbers given by the user
+   5.2 Create a program that display your name
