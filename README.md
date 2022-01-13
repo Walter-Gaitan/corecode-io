@@ -91,3 +91,9 @@ syscall
 li $v0, 0
 jr $ra
 ```
+## Week challenges (Thursday) 💻
+
+1. Search for real word applications of Javascript
+2. (optional but great) Watch [this](https://www.youtube.com/watch?v=LW6vQNE2jgc&t=1962s) video
+3. (optional but great) Watch [this](https://www.youtube.com/watch?v=KXkQJBASUOg) video
+4. Follow the github course, you can find it [here](./../../../recommended)
