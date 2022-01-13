@@ -37,4 +37,23 @@ The year I was born  can be translated as:
 ### 4. Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow [this](resources/MIPS.md) guide. We recomend to check the guide first but also [this](https://courses.cs.vt.edu/cs2506/Fall2014/Notes/L04.MIPSAssemblyOverview.pdf) presentation could be helpful.
 ### 5. Base on the examples and the guide of the low-level language:
    5.1 Create a program to add two numbers given by the user
+```
+```
    5.2 Create a program that display your name
+``` 
+# create string
+.data
+str:  .asciiz "\nMy name is Walter G!\n"
+
+.text
+.globl main
+
+main:
+la $a0, str
+li $v0, 4
+
+# end the program
+syscall
+li $v0, 0
+jr $ra
+```
