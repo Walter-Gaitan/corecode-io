@@ -93,7 +93,11 @@ jr $ra
 ```
 ## Week challenges (Thursday) 💻
 
-1. Search for real word applications of Javascript
-2. (optional but great) Watch [this](https://www.youtube.com/watch?v=LW6vQNE2jgc&t=1962s) video
-3. (optional but great) Watch [this](https://www.youtube.com/watch?v=KXkQJBASUOg) video
-4. Follow the github course, you can find it [here](./../../../recommended)
+### 1. Search for real word applications of Javascript
+You can use Javascript for the following applications: <br>
+1. Web development: you can use it to create funtions and webpages
+2. Server applications: with NodeJS you can create fast and scalable applications
+3. Web servers: with NodeJS a web server can be created. These servers are very fast and do not use buffering
+### 2. (optional but great) Watch [this](https://www.youtube.com/watch?v=LW6vQNE2jgc&t=1962s) video
+### 3. (optional but great) Watch [this](https://www.youtube.com/watch?v=KXkQJBASUOg) video
+### 4. Follow the github course
