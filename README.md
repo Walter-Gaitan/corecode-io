@@ -34,7 +34,7 @@ The year I was born  can be translated as:
 ### 3. Translate 51966 into hexadecimal and binary
 * binary: 1100101011111110
 *  hexadecimal: CAFE > hahaha, really loved the Easter egg
-### 4. Use a Low-level language, for example MIPS assembler, to do so, you will need to follow [this](resources/MIPS.md) guide. We recommend checking the guide first but also [this](https://courses.cs.vt.edu/cs2506/Fall2014/Notes/L04.MIPSAssemblyOverview.pdf) presentation could be helpful.
+### 4. Use a Low-level language, for example MIPS assembler, to do so We recommend checking the guide first but also [this](https://courses.cs.vt.edu/cs2506/Fall2014/Notes/L04.MIPSAssemblyOverview.pdf) presentation could be helpful.
 ### 5. Base on the examples and the guide of the low-level language:
    5.1 Create a program to add two numbers given by the user
 ```
