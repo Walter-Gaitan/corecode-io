@@ -68,6 +68,36 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 ```
 3. 
 ```javascript
+function validSpacing(s) {
+  if (s[0] == ' ' || s.slice(-1) == ' ' || s.includes('  ')) {
+    return false;
+  }
+  else {
+    return true;
+  }
+}
+```
+4. 
+```javascript
+function fakeBin(x){
+  x = x.toString().split('')
+  const bin = []
+  
+  for (var i in x){
+    if (x[i] < 5){
+      bin.push(0);
+    }
+    else {
+      bin.push(1);
+    }
+  }
+  return bin.join('');
+}
+```
+## Week challenges (Thursday) 💻
+
+3. 
+```javascript
 const rps = (p1, p2) => {
 if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 == 'paper' && p2 == 'rock'){
   return 'Player 1 won!'
@@ -80,5 +110,3 @@ if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 
   }
 };
 ```
-4. 
-```javascript
