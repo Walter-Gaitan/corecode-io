@@ -19,6 +19,7 @@ function uniTotal(str) {
 ```javascript
 function getChar(c){
 return c = String.fromCharCode(c);
+}
 ```
 4. 
 ```javascript
@@ -44,3 +45,40 @@ function finalGrade (exam, projects) {
   }
 }
 ```
+## Week challenges (Wednesday) 💻
+1. 
+```javascript
+function dutyFree(normPrice, discount, hol){
+  cutPrice = normPrice * discount / 100
+  total = hol / cutPrice
+  return Math.floor(total)
+}
+```
+2. 
+```javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  twice = sonYearsOld * 2
+  if (dadYearsOld > twice){
+    return dadYearsOld - twice;
+  }
+  else {
+    return twice - dadYearsOld;
+  }
+}
+```
+3. 
+```javascript
+const rps = (p1, p2) => {
+if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 == 'paper' && p2 == 'rock'){
+  return 'Player 1 won!'
+}
+  else if (p1 == 'scissors' && p2 == 'rock' || p1 == 'paper' && p2 == 'scissors' || p1 == 'rock' && p2 == 'paper'){
+    return 'Player 2 won!'
+  }
+  else if(p1 == p2){
+    return 'Draw!'
+  }
+};
+```
+4. 
+```javascript
