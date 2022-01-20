@@ -95,7 +95,25 @@ function fakeBin(x){
 }
 ```
 ## Week challenges (Thursday) 💻
-
+1. 
+```javascript
+function remove (string) {  
+  while (true) {
+  if (string.slice(-1) == '!') {
+    string = string.slice(0, -1);
+  }
+  else {
+    break;
+  }}
+  return string
+}
+```
+2. 
+```javascript
+function shortcut (string) {
+  return   string = string.replace(/[aeiou]/ig, '');
+}
+```
 3. 
 ```javascript
 const rps = (p1, p2) => {
@@ -109,4 +127,8 @@ if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 
     return 'Draw!'
   }
 };
+```
+4. 
+```javascript
+
 ```
