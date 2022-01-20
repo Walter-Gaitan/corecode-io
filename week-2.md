@@ -130,5 +130,13 @@ if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 
 ```
 4. 
 ```javascript
-
+function persistence(num) {
+  var count = 0;
+  num = num.toString()
+  while (num.length > 1) {
+    count++;
+    num = num.toString().split('').map(Number).reduce((a, b) => a * b).toString();
+    }
+  return count;
+  } 
 ```
