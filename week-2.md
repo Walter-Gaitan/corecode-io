@@ -141,4 +141,4 @@ function persistence(num) {
   } 
 ```
 5. ## 🎯 Mission statement 
-<!-- <div style="text-align: justify"> I am Walter G, currently I have a role as an IT Support Specialist. My learning objectives are focused on the emerging technology of cloud computing with companies like Google Cloud and Microsoft Azure, and I am planning to use my knowledge in the DevOps area one day. Also, I have some knowledge in web development and Python focused on data science. </div> -->
+<div style="text-align: justify"> I am Walter G, currently I have a role as an IT Support Specialist. My learning objectives are focused on the emerging technology of cloud computing with companies like Google Cloud and Microsoft Azure, and I am planning to use my knowledge in the DevOps area one day. Also, I have some knowledge in web development and Python focused on data science. </div>
