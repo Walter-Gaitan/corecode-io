@@ -36,3 +36,12 @@ var countBits = function(n) {
 ```javascript
 
 ```
+
+## Week challenges (Tuesday) 💻
+
+### 1. Your order, please
+
+```javascript
+function order(words){
+  // ...
+}
