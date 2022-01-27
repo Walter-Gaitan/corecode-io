@@ -77,7 +77,7 @@ function validParentheses(parens) {
       stack.push(char);
       continue;
     }
-    if (char == ')' && parens[0] == '(') {
+    if (char == ')' && stack[0] == '(') {
         stack.pop();
       }
     else {
