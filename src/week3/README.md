@@ -65,3 +65,25 @@ function order(words){
 
 ### 1. Valid Parentheses
 ```javascript
+function validParentheses(parens) {
+  // your code here ..
+  if (parens.length % 2 != 0) {
+    return false;
+  }
+  let stack = [];
+  for (let i = 0; i < parens.length; i++) {
+    let char = parens[i];
+    if (char == '(') {
+      stack.push(char);
+      continue;
+    }
+    if (char == ')' && parens[0] == '(') {
+        stack.pop();
+      }
+    else {
+      return false;
+      break;
+    }
+    return (stack.length == 0);
+  }
+}
