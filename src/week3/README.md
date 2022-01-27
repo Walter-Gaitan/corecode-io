@@ -67,9 +67,6 @@ function order(words){
 ```javascript
 function validParentheses(parens) {
   // your code here ..
-  if (parens.length % 2 != 0) {
-    return false;
-  }
   let stack = [];
   for (let i = 0; i < parens.length; i++) {
     let char = parens[i];
@@ -84,6 +81,8 @@ function validParentheses(parens) {
       return false;
       break;
     }
-    return (stack.length == 0);
   }
+    return (stack.length == 0);
 }
+```
+### 2. Convert string to camel case
