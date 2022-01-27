@@ -64,3 +64,4 @@ function order(words){
 ## Week challenges (Wednesday) 💻
 
 ### 1. Valid Parentheses
+```javascript
