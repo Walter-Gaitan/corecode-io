@@ -2,7 +2,9 @@
 Learn about Javascript behaviour
 
 ## Week challenges (Monday) 💻
-1. 
+
+### 1. Who likes it? 
+
 ```javascript
   function likes(names) {
   // TODO
@@ -23,7 +25,8 @@ Learn about Javascript behaviour
   }
 }
 ```
-2. 
+### 2. Bit Counting
+
 ```javascript
 var countBits = function(n) {
   // Program Me
@@ -32,9 +35,20 @@ var countBits = function(n) {
   return numarray.reduce((a, b) => a + b, 0)
 };
 ```
-3. 
-```javascript
+### 3. Decode the Morse code
 
+```javascript
+decodeMorse = function( morseCode ) {
+    return morseCode
+             .split("   ") // get word code 3 spaces apart
+             .map(word => word
+                           .split(" ") // get character code 1 spaces apart
+                           .map(character => MORSE_CODE[character]) // decode Morse code character
+                           .join('')
+              )
+              .join(' ') // add spaces between words 
+              .trim()
+}
 ```
 
 ## Week challenges (Tuesday) 💻
