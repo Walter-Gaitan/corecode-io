@@ -87,3 +87,6 @@ function validParentheses(parens) {
 ```
 ### 2. Convert string to camel case
 ```javascript
+```
+
+## Week challenges (Thursday) 💻
