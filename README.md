@@ -8,4 +8,4 @@ This is a repository for the projects done from the bootcamp given by Corecode-i
 ## Index
 1. [Week 1](src/week1)
 2. [Week 2](src/week2)
-3. [Week 3]()
+3. [Week 3](src/week3)

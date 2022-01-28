@@ -40,13 +40,13 @@ var countBits = function(n) {
 ```javascript
 decodeMorse = function( morseCode ) {
     return morseCode
-             .split("   ") // get word code 3 spaces apart
+             .split("   ")
              .map(word => word
-                           .split(" ") // get character code 1 spaces apart
-                           .map(character => MORSE_CODE[character]) // decode Morse code character
+                           .split(" ")
+                           .map(character => MORSE_CODE[character])
                            .join('')
               )
-              .join(' ') // add spaces between words 
+              .join(' ')
               .trim()
 }
 ```
@@ -86,3 +86,4 @@ function validParentheses(parens) {
 }
 ```
 ### 2. Convert string to camel case
+```javascript
