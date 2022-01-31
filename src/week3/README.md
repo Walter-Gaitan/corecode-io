@@ -62,6 +62,46 @@ function order(words){
   // ...
 }
 ```
+### 2. Counting Duplicates
+```javascript
+function duplicateCount(text){
+  
+  var count = new Set();
+  var letters = new Set(); 
+  
+  for(var i of text.toLowerCase()) {
+
+    if (letters.has(i)) {
+      count.add(i);
+    }
+    else {
+      letters.add(i);
+    }
+  }
+  return count.size;
+}
+```
+### 3. Simple Pig Latin
+```javascript
+function pigIt(str){
+  //Code here
+  str = str.split(' ');
+  var newstr = []
+  const symbols = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
+  
+  for (var i = 0; i < str.length; i++) {
+    let letter = str[i].slice(0, 1)
+    
+    if (symbols.test(str[i])) {
+      newstr.push(str[i]);
+    }
+    else {
+      newstr.push(str[i].slice(1) + letter + 'ay');
+    }
+  } 
+  return newstr.join(' ');
+}
+```
 
 ## Week challenges (Wednesday) 💻
 
@@ -92,3 +132,5 @@ function validParentheses(parens) {
 ```
 
 ## Week challenges (Thursday) 💻
+### 1. 
+```javascript
