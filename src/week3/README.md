@@ -129,6 +129,23 @@ function validParentheses(parens) {
 ```
 ### 2. Convert string to camel case
 ```javascript
+
+```
+### 3. Unique In Order
+```javascript
+var uniqueInOrder=function(iterable){
+  //your code here - remember iterable can be a string or an array
+  var uniques = []
+  for (let i = 0; i < iterable.length; i++) {
+    if (iterable[i] === iterable[i+1]) {
+      continue;
+    }
+    else {
+      uniques.push(iterable[i])
+    }
+  }
+  return uniques;
+}
 ```
 
 ## Week challenges (Thursday) 💻
