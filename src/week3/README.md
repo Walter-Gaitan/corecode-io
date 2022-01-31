@@ -1,3 +1,5 @@
+# Javascript - Week 3
+
 ## Week goal 🏁
 Learn about Javascript behaviour
 
