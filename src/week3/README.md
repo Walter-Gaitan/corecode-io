@@ -129,7 +129,11 @@ function validParentheses(parens) {
 ```
 ### 2. Convert string to camel case
 ```javascript
-
+function toCamelCase(str){
+  first = str.slice(0,1);  
+  rest = str.toLowerCase().replace(/[-_]+(.)/g, (m, chr) => chr.toUpperCase());
+  return `${first}${rest.slice(1)}`
+}
 ```
 ### 3. Unique In Order
 ```javascript
