@@ -153,5 +153,7 @@ var uniqueInOrder=function(iterable){
 ```
 
 ## Week challenges (Thursday) 💻
-### 1. 
+### 1. Fold an array
 ```javascript
+
+```
