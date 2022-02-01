@@ -5,3 +5,5 @@ Since the challenges are watching videos and learning about npm, npx and Typescr
 
 ---
 ## Week challenges (Monday) 💻
+
+1. So the first thing to talk about is RegEx, basically is a special syntax that you can use across multiple languages to find specific patterns in a string. You can create a patterns that suits you using numbers, symbols, letters and the combinations of them to add, remove or replace parts in the string. It may seem very complicated but you can use tools to help you out creating your RegEx format like [RegExr](https://regexr.com/).
