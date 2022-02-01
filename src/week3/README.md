@@ -155,5 +155,23 @@ var uniqueInOrder=function(iterable){
 ## Week challenges (Thursday) 💻
 ### 1. Fold an array
 ```javascript
+function foldArray(array, runs)
+{   
+    var sum = []
+    for (let num = 0; num < runs; num++) {
+        if (array.length % 2 != 0) {
+            let array1 = array.slice(0, array.length / 2 + 1)
+            let array2 = array.slice(array.length / 2 + 1)
+            
+        }
+        else {
+            let array1 = array.slice(0, array.length / 2);
+            let array2 = array.slice(array.length / 2);
+            sum = array1.map((a, i) => a + array2[i]); 
+        }
+    }
+    return sum;
+}
 
+console.log(foldArray([ 1, 2, 3, 4, 5], 1));
 ```
