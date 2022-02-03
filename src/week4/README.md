@@ -16,6 +16,20 @@ As it sounds, promises are statements that you compromise to accomplish in the f
 ## Week challenges (Tuesday) 💻
 
 
+### 6. Find the odd Int
+```javascript
+function findOdd(A) {
+  //happy coding!
+  const counts = {};
+  A.forEach((x) => {counts[x] = (counts[x] || 0) + 1});
+  for (const key in counts) {
+    if (counts.hasOwnProperty(key) && counts[key] % 2 != 0) {
+        return parseInt(key)
+    }
+  }
+}
+```
+
 ## Week challenges (Wednesday) 💻
 
 ### 1. Array.diff
