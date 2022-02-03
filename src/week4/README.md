@@ -15,6 +15,34 @@ As it sounds, promises are statements that you compromise to accomplish in the f
 
 ## Week challenges (Tuesday) 💻
 
+### 2. TypeScript object type
+```typescript
+export type User = {
+    name: string;
+    age: number;
+    occupation: string;
+};
+
+export const users: User[] = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    }
+];
+
+export function logPerson(user: User) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+```
+
+### 3. Types vs. interfaces in TypeScript
+
 
 ### 6. Find the odd Int
 ```javascript
