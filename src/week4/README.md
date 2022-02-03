@@ -12,3 +12,26 @@ Since the challenges are watching videos and learning about npm, npx and Typescr
 
 ### 2. Promises
 As it sounds, promises are statements that you compromise to accomplish in the future, so the code runs based on this from happening at some moment, which makes webpages and applications run faster while the action has not been executed yet. If you don't keep your promise there is also the option to execute something different to show that things didn't happen as expected. 
+
+## Week challenges (Tuesday) 💻
+
+
+## Week challenges (Wednesday) 💻
+
+### 1. Array.diff
+```javascript
+function arrayDiff(a, b) {
+   const bSet = new Set(b);
+   const newArr = a.filter((name) => {return !bSet.has(name)});
+   return newArr;
+}
+```
+### 2. Create Phone Number
+```javascript
+function createPhoneNumber(numbers){
+  const countryCode = numbers.slice(0,3).join('');
+  const first = numbers.slice(3,6).join('');
+  const last = numbers.slice(6).join('');
+  return `(${countryCode}) ${first}-${last}`
+}
+```
