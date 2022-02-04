@@ -77,3 +77,8 @@ function createPhoneNumber(numbers){
   return `(${countryCode}) ${first}-${last}`
 }
 ```
+
+## Week challenges (Thursday) 💻
+
+### 1. Detect Pangram
+```javascript
