@@ -82,3 +82,7 @@ function createPhoneNumber(numbers){
 
 ### 1. Detect Pangram
 ```javascript
+function isPangram(string){
+  return new Set(string.toLowerCase().match(/[a-z]/g)).size === 26;
+}
+```
