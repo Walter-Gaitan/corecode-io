@@ -1,5 +1,10 @@
 # Javascript - Week 2
 
+
+## Week goal 🏁
+<div style="text-align: justify"> In the second week we choose Javascript to be our predilect programming language and from now on we are working on excercises based on it.</div>
+ 
+ ---
 ## Week challenges (Tuesday) 💻
 
 ### 1. Multiply

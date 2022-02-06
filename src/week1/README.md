@@ -1,5 +1,10 @@
 # Introduction to programming & Javascript - Week 1
 
+## Week goal 🏁
+<div style="text-align: justify"> For the first week we are focusing on understanding the programming foundations, how programs work and are read by a computer, typer of programming languages and different areas that you can work on. 
+ </div>
+
+---
 ## Week challenges (Tuesday) 💻
 ### 1.Search and answer the question: Java language is compiled or interpreted?
 Java is considered both since it is first compiled into binary code and then the code runs in the Java VM which is usually software-based
