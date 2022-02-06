@@ -1,6 +1,5 @@
 # Introduction to programming & Javascript - Week 1
 
-<<<<<<< HEAD
 ## Week goal 🏁
 
 <div style="text-align: justify"> For the first week we are focusing on understanding the programming foundations, how programs work and are read by a computer, typer of programming languages and different areas that you can work on. 
@@ -8,8 +7,6 @@
 
 ---
 
-=======
->>>>>>> parent of 60d1e54 (update weekly goals)
 ## Week challenges (Tuesday) 💻
 
 ### 1.Search and answer the question: Java language is compiled or interpreted?

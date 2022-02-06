@@ -1,25 +1,15 @@
 # Javascript - Week 3
 
-<<<<<<< HEAD
 ## Week goal ?
 
 <div style="text-align: justify"> In the third week we are focusing on the Javascript behaviour and different functions that we can use to manipullate arrays, create loops, look for patterns and evaluate statements.</div>
 
  ---
-=======
-## Week goal ðŸ
-Learn about Javascript behaviour
->>>>>>> parent of 60d1e54 (update weekly goals)
 
 ## Week challenges (Monday) ?’»
 
 ### 1. Who likes it?
 
-<<<<<<< HEAD
-=======
-### 1. Who likes it? 
-
->>>>>>> parent of 60d1e54 (update weekly goals)
 ```javascript
   function likes(names) {
   // TODO
@@ -40,6 +30,7 @@ Learn about Javascript behaviour
   }
 }
 ```
+
 ### 2. Bit Counting
 
 ```javascript
@@ -50,6 +41,7 @@ var countBits = function(n) {
   return numarray.reduce((a, b) => a + b, 0)
 };
 ```
+
 ### 3. Decode the Morse code
 
 ```javascript
@@ -77,6 +69,7 @@ function order(words){
   // ...
 }
 ```
+
 ### 2. Counting Duplicates
 
 ```javascript
@@ -97,6 +90,7 @@ function duplicateCount(text){
   return count.size;
 }
 ```
+
 ### 3. Simple Pig Latin
 
 ```javascript
@@ -147,6 +141,7 @@ function validParentheses(parens) {
     return (stack.length == 0);
 }
 ```
+
 ### 2. Convert string to camel case
 
 ```javascript
@@ -156,6 +151,7 @@ function toCamelCase(str){
   return `${first}${rest.slice(1)}`
 }
 ```
+
 ### 3. Unique In Order
 
 ```javascript
