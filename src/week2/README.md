@@ -1,13 +1,15 @@
 # Javascript - Week 2
 
 ## Week challenges (Tuesday) 💻
-1. 
+
+### 1. Multiply
 ```javascript
 function multiply(a, b){
   return a * b
 }
 ```
-2. 
+
+### 2. ASCII Total 
 ```javascript
 function uniTotal(str) {
   var count = 0;
@@ -17,20 +19,23 @@ function uniTotal(str) {
   return count;
 }
 ```
-3. 
+
+### 3. get character from ASCII Value
 ```javascript
 function getChar(c){
 return c = String.fromCharCode(c);
 }
 ```
-4. 
+
+### 4. Binary Addition 
 ```javascript
 function addBinary(a,b) {
   sum = a + b
   return sum.toString(2);
 }
 ```
-5. 
+
+### 5. Student's Final Grade 
 ```javascript
 function finalGrade (exam, projects) {
   if (exam > 90 || projects > 10){
@@ -47,8 +52,10 @@ function finalGrade (exam, projects) {
   }
 }
 ```
+---
 ## Week challenges (Wednesday) 💻
-1. 
+
+### 1. Holiday VIII - Duty Free
 ```javascript
 function dutyFree(normPrice, discount, hol){
   cutPrice = normPrice * discount / 100
@@ -56,7 +63,8 @@ function dutyFree(normPrice, discount, hol){
   return Math.floor(total)
 }
 ```
-2. 
+
+### 2. Twice as old 
 ```javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   twice = sonYearsOld * 2
@@ -68,7 +76,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   }
 }
 ```
-3. 
+
+### 3. Valid Spacing 
 ```javascript
 function validSpacing(s) {
   if (s[0] == ' ' || s.slice(-1) == ' ' || s.includes('  ')) {
@@ -79,7 +88,7 @@ function validSpacing(s) {
   }
 }
 ```
-4. 
+### 4. Fake Binary 
 ```javascript
 function fakeBin(x){
   x = x.toString().split('')
@@ -96,8 +105,10 @@ function fakeBin(x){
   return bin.join('');
 }
 ```
+---
 ## Week challenges (Thursday) 💻
-1. 
+
+### 1. Remove all exclamation marks from the end of sentence 
 ```javascript
 function remove (string) {  
   while (true) {
@@ -110,13 +121,15 @@ function remove (string) {
   return string
 }
 ```
-2. 
+
+### 2. Vowel remover
 ```javascript
 function shortcut (string) {
   return   string = string.replace(/[aeiou]/ig, '');
 }
 ```
-3. 
+
+### 3. Rock Paper Scissors 
 ```javascript
 const rps = (p1, p2) => {
 if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 == 'paper' && p2 == 'rock'){
@@ -130,7 +143,8 @@ if (p1 == 'scissors' && p2 == 'paper' || p1 == 'rock' && p2 == 'scissors' || p1 
   }
 };
 ```
-4. 
+
+### 4. Persistent Bugger 
 ```javascript
 function persistence(num) {
   var count = 0;
@@ -142,5 +156,6 @@ function persistence(num) {
   return count;
   } 
 ```
+---
 5. ## 🎯 Mission statement 
-<div style="text-align: justify"> I am Walter G, currently I have a role as an IT Support Specialist. My learning objectives are focused on the emerging technology of cloud computing with companies like Google Cloud and Microsoft Azure, and I am planning to use my knowledge in the DevOps area one day. Also, I have some knowledge in web development and Python focused on data science. </div>
+<div style="text-align: justify"> I am Walter G, currently I have a role as an IT Support Specialist. My learning objectives are focused on the emerging technology of cloud computing with companies like Google Cloud and Microsoft Azure, and I am planning to use my knowledge in the DevOps area one day. Also, I have some knowledge in web development and Python, focused on data science. </div>

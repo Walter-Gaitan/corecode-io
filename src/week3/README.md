@@ -52,7 +52,7 @@ decodeMorse = function( morseCode ) {
               .trim()
 }
 ```
-
+---
 ## Week challenges (Tuesday) 💻
 
 ### 1. Your order, please
@@ -102,7 +102,7 @@ function pigIt(str){
   return newstr.join(' ');
 }
 ```
-
+---
 ## Week challenges (Wednesday) 💻
 
 ### 1. Valid Parentheses
@@ -174,3 +174,4 @@ function foldArray(array, runs) {
 		}
 }
 ```
+### 2. 
