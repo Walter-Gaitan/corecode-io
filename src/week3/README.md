@@ -178,4 +178,35 @@ function foldArray(array, runs) {
 		}
 }
 ```
-### 2. 
+### 2. Encrypt this!
+```javascript
+var encryptThis = function(text) {
+  // Implement me! :)
+  text = text.split(' ')
+  var newText = []
+  for (let element of text) {
+    toascii = element.charCodeAt(0)
+    if (element.length === 1) {
+      newText.push(toascii);
+    }
+    else if (element.length === 2) {
+      newText.push(`${toascii}${element.slice(1)}`)
+    }
+    else {
+      newText.push(`${toascii}${element.slice(-1)}${element.slice(2,-1)}${element.slice(1,2)}`)
+    } 
+  }
+  return newText.join(' ');
+}
+```
+
+### 3.Format a string of names like 'Bart, Lisa & Maggie'. (retired)
+```javascript
+function list(names){
+  //your code here
+	var len = names.length;
+	if(len == 0) return '';
+	var commaNames =  names.slice(0, len-1).map(p=>p.name).join(", ");
+	return `${commaNames}${(len>1 ? ' & ' : '')}${names[len-1].name}`
+}
+```
