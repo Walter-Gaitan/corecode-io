@@ -1,13 +1,15 @@
 # Javascript - Week 3
 
-## Week goal üèÅ
+## Week goal ?èÅ
+
 <div style="text-align: justify"> In the third week we are focusing on the Javascript behaviour and different functions that we can use to manipullate arrays, create loops, look for patterns and evaluate statements.</div>
- 
+
  ---
 
-## Week challenges (Monday) üíª
+## Week challenges (Monday) ?íª
 
-### 1. Who likes it? 
+### 1. Who likes it?
+
 ```javascript
   function likes(names) {
   // TODO
@@ -30,6 +32,7 @@
 ```
 
 ### 2. Bit Counting
+
 ```javascript
 var countBits = function(n) {
   // Program Me
@@ -40,6 +43,7 @@ var countBits = function(n) {
 ```
 
 ### 3. Decode the Morse code
+
 ```javascript
 decodeMorse = function( morseCode ) {
     return morseCode
@@ -53,10 +57,13 @@ decodeMorse = function( morseCode ) {
               .trim()
 }
 ```
+
 ---
-## Week challenges (Tuesday) üíª
+
+## Week challenges (Tuesday) ?íª
 
 ### 1. Your order, please
+
 ```javascript
 function order(words){
   // ...
@@ -64,12 +71,13 @@ function order(words){
 ```
 
 ### 2. Counting Duplicates
+
 ```javascript
 function duplicateCount(text){
-  
+
   var count = new Set();
   var letters = new Set(); 
-  
+
   for(var i of text.toLowerCase()) {
 
     if (letters.has(i)) {
@@ -84,16 +92,17 @@ function duplicateCount(text){
 ```
 
 ### 3. Simple Pig Latin
+
 ```javascript
 function pigIt(str){
   //Code here
   str = str.split(' ');
   var newstr = []
   const symbols = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
-  
+
   for (var i = 0; i < str.length; i++) {
     let letter = str[i].slice(0, 1)
-    
+
     if (symbols.test(str[i])) {
       newstr.push(str[i]);
     }
@@ -104,10 +113,13 @@ function pigIt(str){
   return newstr.join(' ');
 }
 ```
+
 ---
-## Week challenges (Wednesday) üíª
+
+## Week challenges (Wednesday) ?íª
 
 ### 1. Valid Parentheses
+
 ```javascript
 function validParentheses(parens) {
   // your code here ..
@@ -131,6 +143,7 @@ function validParentheses(parens) {
 ```
 
 ### 2. Convert string to camel case
+
 ```javascript
 function toCamelCase(str){
   first = str.slice(0,1);  
@@ -140,6 +153,7 @@ function toCamelCase(str){
 ```
 
 ### 3. Unique In Order
+
 ```javascript
 var uniqueInOrder=function(iterable){
   //your code here - remember iterable can be a string or an array
@@ -156,26 +170,33 @@ var uniqueInOrder=function(iterable){
 }
 ```
 
-## Week challenges (Thursday) üíª
+## Week challenges (Thursday) ?íª
+
 ### 1. Fold an array
+
 ```javascript
 function foldArray(array, runs) {   
-	if (runs == 0) {
-		return array;
-	}
-	else if (array.length % 2 == 0) {
-			let array1 = array.slice(0, array.length / 2)
-			let array2 = array.slice(array.length / 2).reverse();
-			let sum = array1.map((a, i) => a + array2[i]);
-			return foldArray(sum, runs - 1);
-		}
-		else {
-			let array1 = array.slice(0, array.length / 2 + 1)
-			let array2 = array.slice(array.length / 2 + 1).reverse();
-			array2.push(0);
-			let sum = array1.map((a, i) => a + array2[i]);
-			return foldArray(sum, runs - 1); 
-		}
+    if (runs == 0) {
+        return array;
+    }
+    else if (array.length % 2 == 0) {
+            let array1 = array.slice(0, array.length / 2)
+            let array2 = array.slice(array.length / 2).reverse();
+            let sum = array1.map((a, i) => a + array2[i]);
+            return foldArray(sum, runs - 1);
+        }
+        else {
+            let array1 = array.slice(0, array.length / 2 + 1)
+            let array2 = array.slice(array.length / 2 + 1).reverse();
+            array2.push(0);
+            let sum = array1.map((a, i) => a + array2[i]);
+            return foldArray(sum, runs - 1); 
+        }
 }
 ```
-### 2. 
+
+### 2. Encrypt this!
+
+```javas
+
+```

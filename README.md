@@ -4,11 +4,12 @@
 
 > If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on. ~ Sheryl Sandberg
 
-This is a repository for the projects done from the bootcamp given by Corecode-io, Each week I am integrating new content from the tasks and test given.
-  
+This is a repository for the projects done from the bootcamp given by Corecode-io, Each week I am integrating new content from the tasks and tests given.
+
 [Here](https://www.core-code.io/) you can take a look at their website and opportunities! 
 
 ## Index
+
 1. [Week 1](src/week1)
 2. [Week 2](src/week2)
 3. [Week 3](src/week3)
