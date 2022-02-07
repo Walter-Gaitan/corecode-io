@@ -106,3 +106,6 @@ function findMissingLetter(array) {
 	}
 }
 ```
+
+### 3. Find the unique number
+```javascript
