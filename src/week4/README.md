@@ -95,4 +95,14 @@ function isPangram(string){
 }
 ```
 
-### 2.
+### 2. Find the missing letter
+```javascript
+function findMissingLetter(array) {	
+	array = array.join('')
+  for (var i = 0; i < array.length - 1; i++) {
+		if (array.charCodeAt(i + 1) - array.charCodeAt(i) != 1) {
+				return String.fromCharCode(array.charCodeAt(i) + 1);
+		}
+	}
+}
+```

@@ -1,13 +1,12 @@
 # Javascript - Week 3
 
 ## Week goal 🏁
-<div style="text-align: justify"> In the third week we are focusing on the Javascript behaviour and different functions that we can use to manipullate arrays, create loops, look for patterns and evaluate statements.</div>
- 
- ---
+Learn about Javascript behaviour
 
 ## Week challenges (Monday) 💻
 
 ### 1. Who likes it? 
+
 ```javascript
   function likes(names) {
   // TODO
@@ -28,8 +27,8 @@
   }
 }
 ```
-
 ### 2. Bit Counting
+
 ```javascript
 var countBits = function(n) {
   // Program Me
@@ -38,8 +37,8 @@ var countBits = function(n) {
   return numarray.reduce((a, b) => a + b, 0)
 };
 ```
-
 ### 3. Decode the Morse code
+
 ```javascript
 decodeMorse = function( morseCode ) {
     return morseCode
@@ -53,16 +52,16 @@ decodeMorse = function( morseCode ) {
               .trim()
 }
 ```
----
+
 ## Week challenges (Tuesday) 💻
 
 ### 1. Your order, please
+
 ```javascript
 function order(words){
   // ...
 }
 ```
-
 ### 2. Counting Duplicates
 ```javascript
 function duplicateCount(text){
@@ -82,7 +81,6 @@ function duplicateCount(text){
   return count.size;
 }
 ```
-
 ### 3. Simple Pig Latin
 ```javascript
 function pigIt(str){
@@ -104,7 +102,7 @@ function pigIt(str){
   return newstr.join(' ');
 }
 ```
----
+
 ## Week challenges (Wednesday) 💻
 
 ### 1. Valid Parentheses
@@ -129,7 +127,6 @@ function validParentheses(parens) {
     return (stack.length == 0);
 }
 ```
-
 ### 2. Convert string to camel case
 ```javascript
 function toCamelCase(str){
@@ -138,7 +135,6 @@ function toCamelCase(str){
   return `${first}${rest.slice(1)}`
 }
 ```
-
 ### 3. Unique In Order
 ```javascript
 var uniqueInOrder=function(iterable){
@@ -178,6 +174,7 @@ function foldArray(array, runs) {
 		}
 }
 ```
+
 ### 2. Encrypt this!
 ```javascript
 var encryptThis = function(text) {
