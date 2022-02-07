@@ -109,3 +109,24 @@ function findMissingLetter(array) {
 
 ### 3. Find the unique number
 ```javascript
+function findUniq(arr) {
+  let repeated = arr.filter((num, index) => arr.indexOf(num) !== index)
+  return arr.filter((num)=> num !== repeated[0])[0]
+}
+```
+
+### 4. Reverse or rotate?
+```javascript
+function revrot(str, sz) {
+   len = str.length;
+   if(sz <= 0 || !str || sz > len) return "";
+
+   const test = s => Array.prototype.reduce.call(s, (acc, val) => acc + Number(val) ** 3, 0) % 2 === 0;
+   const reverse = s => s.split("").reverse().join("");
+   const rotate = s => s.slice(1) + s.slice(0, 1);
+
+   let arr = [];
+   for(let i = 0; i < len; i += sz) arr.push(i+sz <= len ? str.slice(i, i+sz) : "")
+   return arr.map(x => test(x) ? reverse(x) : rotate(x)).join("");
+}
+```
