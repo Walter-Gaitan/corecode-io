@@ -44,3 +44,17 @@ export class G964 {
   }
 }
 ```
+
+### 4. Mumbling
+```typescript
+export function accum(s: string): string {
+  let chars = s.split('');
+  let arr = []
+  for (let i = 0; i < chars.length; i++) {
+      arr.push(`${chars[i].toUpperCase()}${chars[i].repeat(i).toLowerCase()}`)
+  }
+  return arr.join('-');
+}
+```
+
+### 5. A wolf in sheep's clothing
