@@ -129,3 +129,4 @@ function revrot(str, sz) {
    for(let i = 0; i < len; i += sz) arr.push(i+sz <= len ? str.slice(i, i+sz) : "")
    return arr.map(x => test(x) ? reverse(x) : rotate(x)).join("");
 }
+```
