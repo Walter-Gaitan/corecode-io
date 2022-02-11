@@ -68,3 +68,7 @@ export function warnTheSheep(queue: string[]): string {
     };
 }
 ```
+
+## Week challenges (Tuesday) 💻
+
+### 1. 
