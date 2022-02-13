@@ -71,4 +71,37 @@ export function warnTheSheep(queue: string[]): string {
 
 ## Week challenges (Tuesday) 💻
 
-### 1. 
+### 1. A Rule of Divisibility by 13
+```typescript
+export function thirt(n: number): number {
+    // your code
+  const sequence = [1, 10, 9, 12, 3, 4];
+  let nums = n.toString().split('').reverse()
+  let res = nums.map( (c,i) => parseInt(c)*sequence[i%6]).reduce( (p,c) => p += c );
+  return n == res ? res : thirt(res)
+}
+```
+
+### 2. Playing with digits
+```typescript
+export class G964 {
+
+    public static digPow = (n: number, p: number) => {
+        // your code
+        var digits = n.toString().split('');
+        var result = 0;
+        
+        for(var i=0; i<digits.length; i++) {
+            result = result + Math.pow(parseInt(digits[i]), p);
+            p++;
+        }
+        var data = result/n;
+        if(result % n === 0) {
+            return data;
+        }
+        else {
+            return -1;
+        }
+    }
+}
+```
