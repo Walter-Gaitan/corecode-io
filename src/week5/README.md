@@ -153,3 +153,38 @@ function solveTTT(board) {
   return board.findIndex(cell => cell === '');
 }
 ```
+
+### 5. Tic-Tac-Toe-like table Generator
+```javascript
+function display_board(board, width) {
+    
+    let length = board.length // width
+    let output = ''
+    
+    for (let i = 0; i < length; i++) {
+        if (i == 0) {
+            for (let j = 0; j < width.length; j++) {
+                if (j != width - 1) {
+                    output += ' {} |'.format(board[j + width * i])
+                }
+                else if (j == width - 1) {
+                    output += ' {} '.format(board[j + width * i])
+                }
+            }
+        }
+        else {
+            output += '\n{}\n'.format('-' * (width * 4 - 1))
+            for (let j = 0; j < width.length; j++) {
+                if (j != width - 1) {
+                    output += ' {} |'.format(board[j + width * i])
+                }
+                else if (j == width - 1) {
+                    output += ' {} '.format(board[j + width * i])
+                }
+            }
+        }
+    
+    return output
+    }
+}
+```
