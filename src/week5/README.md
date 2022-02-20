@@ -152,3 +152,4 @@ function solveTTT(board) {
   }
   return board.findIndex(cell => cell === '');
 }
+```
