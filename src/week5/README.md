@@ -105,3 +105,50 @@ export class G964 {
     }
 }
 ```
+
+### 3. Valid Braces
+```typescript
+export function validBraces(braces: string): boolean {
+  const stack = []
+
+    for (let i=0; i < braces.length; i++){
+
+        let curChar = braces[i];
+
+        switch(curChar) {
+            case '(': stack.push(')');
+                break;
+            case '[': stack.push(']');
+                break;
+            case '{': stack.push('}')
+                break;
+            default:
+                let topElement = stack.pop()
+                if (curChar !== topElement) return false;       
+        }
+    }
+    return stack.length === 0;
+}
+```
+
+### 4. Tic-Tac-Toe
+```javascript
+function solveTTT(board) {
+
+  let patterns = ['012', '345', '678', '036', '147', '258', '048', '246'];
+
+  for (let pattern of patterns) {
+
+    let xs = 0, pos = -1;
+
+    for (let q of [...pattern]) 
+      if (board[q] === 'X')
+        xs++;
+      else if (board[q] === '')
+        pos = q;
+
+    if (xs === 2 && pos >= 0)
+      return +pos;
+  }
+  return board.findIndex(cell => cell === '');
+}
