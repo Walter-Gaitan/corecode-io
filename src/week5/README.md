@@ -188,3 +188,10 @@ function display_board(board, width) {
     }
 }
 ```
+
+## Week challenges (Wednesday) 💻
+
+### 1. Duplicate Encoder
+```typescript
+
+```
