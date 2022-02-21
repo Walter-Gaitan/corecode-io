@@ -156,36 +156,23 @@ function solveTTT(board) {
 
 ### 5. Tic-Tac-Toe-like table Generator
 ```javascript
-function display_board(board, width) {
+function displayBoard(board, width) {
     
-    let length = board.length // width
-    let output = ''
+    var output = ''
+    var separator = (width * 3) + (width - 1)
     
-    for (let i = 0; i < length; i++) {
-        if (i == 0) {
-            for (let j = 0; j < width.length; j++) {
-                if (j != width - 1) {
-                    output += ' {} |'.format(board[j + width * i])
-                }
-                else if (j == width - 1) {
-                    output += ' {} '.format(board[j + width * i])
-                }
+    for (let i = 0; i < board.length; i++) {
+        output += ` ${board[i]} `
+        if (i+1 < board.length) {
+            if ((i+1) % width == 0) {
+                output += '\n' + ('-'.repeat(separator)) + '\n' 
+    				}
+            else {
+                output += '|' 
             }
         }
-        else {
-            output += '\n{}\n'.format('-' * (width * 4 - 1))
-            for (let j = 0; j < width.length; j++) {
-                if (j != width - 1) {
-                    output += ' {} |'.format(board[j + width * i])
-                }
-                else if (j == width - 1) {
-                    output += ' {} '.format(board[j + width * i])
-                }
-            }
-        }
-    
-    return output
     }
+    return output
 }
 ```
 
