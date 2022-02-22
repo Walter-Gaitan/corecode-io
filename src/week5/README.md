@@ -178,6 +178,23 @@ function displayBoard(board, width) {
 ## Week challenges (Wednesday) 💻
 
 ### 1. Duplicate Encoder
-```typescript
 
+### 2. Find the odd int
+```typescript
+export const findOdd = (xs: number[]): number => {
+  // happy coding!
+  for (let i = 0; i < xs.length; i++) { 
+          
+        let count = 0; 
+          
+        for (let j = 0; j < xs.length; j++) 
+        { 
+            if (xs[i] == xs[j]) 
+                count++; 
+        } 
+        if (count % 2 != 0) 
+            return xs[i]; 
+    } 
+    return -1; 
+};
 ```
