@@ -13,4 +13,5 @@ This is a repository for the projects done from the bootcamp given by Corecode-i
 2. [Week 2](src/week2)
 3. [Week 3](src/week3)
 4. [Week 4](src/week4)
-4. [Week 5](src/week5)
+5. [Week 5](src/week5)
+6. [Week 6](srt/week6) 
