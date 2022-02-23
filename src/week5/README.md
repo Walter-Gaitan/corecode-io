@@ -178,6 +178,23 @@ function displayBoard(board, width) {
 ## Week challenges (Wednesday) 💻
 
 ### 1. Duplicate Encoder
+```typescript
+export function duplicateEncode(word: string){
+    // ...
+    word = word.toLowerCase()
+    let letters = []
+  for (let letter of word) {
+    
+    if (word.indexOf(letter) == word.lastIndexOf(letter)) {
+      letters.push('(');
+    }
+    else {
+      letters.push(')')    
+    }
+  }
+  return letters.join('');
+}
+```
 
 ### 2. Find the odd int
 ```typescript
