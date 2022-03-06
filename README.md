@@ -9,9 +9,11 @@ This is a repository for the projects done from the bootcamp given by Corecode-i
 [Here](https://www.core-code.io/) you can take a look at their website and opportunities! 
 
 ## Index
-1. [Week 1](src/week1)
-2. [Week 2](src/week2)
-3. [Week 3](src/week3)
-4. [Week 4](src/week4)
-5. [Week 5](src/week5)
-6. [Week 6](srt/week6) 
+1. [Week 1](src/week1/README.md)
+2. [Week 2](src/week2/README.md)
+3. [Week 3](src/week3/README.md)
+4. [Week 4](src/week4/README.md)
+5. [Week 5](src/week5/README.md)
+6. [Week 6](src/week6/README.md)
+7. [Week 7]
+8. [Week 8](src/week8/README.md)

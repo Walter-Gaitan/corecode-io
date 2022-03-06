@@ -11,6 +11,7 @@ Learn about classes, instances, inheritance and data type with Typescript
 <div style="text-align: justify">Here we learn about the different 
 types that we encounter such as booleans, numbers and strings. Here is important to know that when you select a type, you can't create a variable with a value that is not congruent with the type. But you can select more than one type (ex: number || string).<br><br>
 After that we begin with type aliases which are basically types created by the user as a template so redundancy is avoided. Interfaces are just another way to name object types, it is very similar to aliases with the only difference that the first one cannot be modified and the second one can be extended at any moment.</div>
+
 ---
  **NOTE**
 The following exercises are written in Typescript, which is similar to Javascript but enhanced. 
@@ -177,41 +178,3 @@ function displayBoard(board, width) {
 
 ## Week challenges (Wednesday) 💻
 
-### 1. Duplicate Encoder
-```typescript
-export function duplicateEncode(word: string){
-    // ...
-    word = word.toLowerCase()
-    let letters = []
-  for (let letter of word) {
-    
-    if (word.indexOf(letter) == word.lastIndexOf(letter)) {
-      letters.push('(');
-    }
-    else {
-      letters.push(')')    
-    }
-  }
-  return letters.join('');
-}
-```
-
-### 2. Find the odd int
-```typescript
-export const findOdd = (xs: number[]): number => {
-  // happy coding!
-  for (let i = 0; i < xs.length; i++) { 
-          
-        let count = 0; 
-          
-        for (let j = 0; j < xs.length; j++) 
-        { 
-            if (xs[i] == xs[j]) 
-                count++; 
-        } 
-        if (count % 2 != 0) 
-            return xs[i]; 
-    } 
-    return -1; 
-};
-```
