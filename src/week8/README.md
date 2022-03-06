@@ -4,7 +4,8 @@
 
 The purpose of this week is to create a webpage with multiple functions involving Javascript, CSS and HTML. To avoid creating multiple links I am using one central webpage with subpages for each excercise.
 
-If you want to take a look at the webpage just click on this [link]("https://CoreCode-Bootcamp.walterstevenste.repl.co")
+If you want to take a look at the webpage just click on this 
+[link]("https://CoreCode-Bootcamp.walterstevenste.repl.co")
 
 ---
 ## Week challenges (Monday) 💻
