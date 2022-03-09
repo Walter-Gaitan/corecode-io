@@ -1,32 +1,38 @@
-# HTML & Node - Week 8
+# React & Node - Week 9
 
 ## Week goal 🏁
 
-The purpose of this week is to create a webpage with multiple functions involving Javascript, CSS and HTML. To avoid creating multiple links I am using one central webpage with subpages for each excercise.
-
-If you want to take a look at the webpage just click on the link below <br>
-https://CoreCode-Bootcamp.walterstevenste.repl.co"
+Learn about React/Node.JS and its capabilities
 
 ---
 ## Week challenges (Monday) 💻
 
-* Create a webpage that prints your name to the screen.
-* Create a webpage and set its title to "CoreCode Bootcamp".
-* Create a webpage that prints what you like the most about programming and give it a title of your choice.
+### Easter egg list in ReactJS
+```javascript
+import React from 'react';
+
+
+export const EggList = (props) => {
+  return <ul>{props.eggs.map((egg, index) => <EasterEgg key={index} name={egg}/>)} </ul>
+};
+
+export const EasterEgg = (props) => {
+  const name = props.name;
+  return( <li key={name} >{name}</li>)
+
+};
+```
 
 ## Week challenges (Tuesday) 💻
 
-* Create a webpage that prints the numbers 1 - 10, each number being a different color. (No JS/TS)
-* Create a webpage that prints two lists with any information you want. One list should be an ordered list, the other list should be an unordered list.
-* Create a webpage that prints some random paragraphs (https://loremipsum.io/es/) and give them some titles using different header sizes.
+1. Read about Node.js
+2. The V8 Javascript Engine is an interpreter created by Google Chrome to run your Javascript code independently of the browser. This enhance the performance since you don't need to wait for the script to give a response to load the rest of the webpage.
+3. NVM is a tool used to download Node.js and manage the versions you have installed. The beauty of NVM is that it lets you keep multiple versions of Node.js to run specific projects
+4. Depending if you are using Javascript or Node.js, the default modules would be ES modules or CommonJS modules respectively. This standarization affects wheter you are working with Javascript or Node.js, also, ES modules are synchronous while CommonJS asynchronous..
 
 ## Week challenges (Wednesday) 💻
 
-* Create some links to various search engines.
-* Display five different images. Each image should have a title.
-* Display an image that when clicked will link to a website of your choice (should be opened in a new window).
+
 
 ## Week challenges (Thursday) 💻
 
-* Use a website you created before and give some classes and identifiers to elements. Create some css for them.
-* Create a website that using javascript, when you press a button will change the background to a random color.
