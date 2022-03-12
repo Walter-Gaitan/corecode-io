@@ -32,7 +32,9 @@ export const EasterEgg = (props) => {
 
 ## Week challenges (Wednesday) 💻
 
-
+### Answer the question: Are APIs only available on the Internet?
+When we talk about APIs, we usually speak about their web versions, but that doesn't mean that those are the only ones. In different words, *All Web Services are APIs but not al APIs are Web Services*
+You can also use APIs using only local files, because at the end, this is just a way for two applicacions to communicate with each other. That doesn't require a connection to the internet to happen, but it can happen within a single device.
 
 ## Week challenges (Thursday) 💻
 
