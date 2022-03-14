@@ -38,3 +38,22 @@ You can also use APIs using only local files, because at the end, this is just a
 
 ## Week challenges (Thursday) 💻
 
+### Postman alternatives
+
+1. Thunder Client
+
+*Website:* [Thunder Client](https://www.thunderclient.com/)
+
+The first one is the one that I recommend the most since is just an extension that you can use in VS Code. It is very similar to Postman so, if you already know this tool the learning curve is not really high. The best is that it is 100% free.
+
+2. Testfully
+
+*Website:* [Testfully.io](https://testfully.io/)
+
+This is a great option to start with since you don't need to install any software, because it runs in the browser. It stores your request in the cloud, so you can use re-tests. It also offers a free plan with unlimited team members
+
+3. Insomnia
+
+*Website:* [Insomnia Rest](https://insomnia.rest/)
+
+This is an open source API client that let's you use it for free and the base price starts at $5. With it, you can centralize and automate tests, build API pipelines, define multiple environments, and so on. This one has a very simple interface, which makes it a better alternative to Postman if you're just a begginer, it also loads faster.
