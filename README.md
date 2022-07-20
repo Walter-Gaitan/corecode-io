@@ -18,4 +18,4 @@ This is a repository for the projects done from the bootcamp given by Corecode-i
 7. [Week 7](src/week7/README.md)
 8. [Week 8](src/week8/README.md)
 9. [Week 9](src/week9/README.md)
-10. [Week 10](src/week10/README.md)....
+10. [Week 10](src/week10/README.md)
